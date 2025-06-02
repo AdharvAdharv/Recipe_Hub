@@ -6,8 +6,11 @@ Recipe Hub is a modern and interactive recipe discovery application built with *
 
 ## 📸 Screenshots
 
-![Screenshot 1](screenshots/homepage.png)
-![Screenshot 2](screenshots/recipe-details.png)
+![Screenshot 1](Screenshot/Homepage.png)
+![Screenshot 2](Screenshot/RecipeDetails.png)
+![Screenshot 3](Screenshot/RecipeDetails-2.png)
+
+
 
 ---
 

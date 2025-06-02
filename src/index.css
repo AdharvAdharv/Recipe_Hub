@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.wave-letter {
+  display: inline-block;
+  transition: all 0.0s ease-in-out;
+}
+
+.animate-wave .wave-letter {
+  animation: wave-animation 0.5s ease-in-out forwards;
+}
+
+.animate-wave .wave-letter:nth-child(1) { animation-delay: 0s; }
+.animate-wave .wave-letter:nth-child(2) { animation-delay: 0.1s; }
+.animate-wave .wave-letter:nth-child(3) { animation-delay: 0.2s; }
+.animate-wave .wave-letter:nth-child(4) { animation-delay: 0.3s; }
+.animate-wave .wave-letter:nth-child(5) { animation-delay: 0.4s; }
+.animate-wave .wave-letter:nth-child(6) { animation-delay: 0.5s; }
+.animate-wave .wave-letter:nth-child(7) { animation-delay: 0.6s; }
+.animate-wave .wave-letter:nth-child(8) { animation-delay: 0.7s; }
+.animate-wave .wave-letter:nth-child(9) { animation-delay: 0.8s; }
+.animate-wave .wave-letter:nth-child(10) { animation-delay: 0.9s; }
+.animate-wave .wave-letter:nth-child(11) { animation-delay: 1s; }
+
+@keyframes wave-animation {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
