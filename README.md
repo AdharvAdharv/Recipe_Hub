@@ -3,7 +3,8 @@
 Recipe Hub is a modern and interactive recipe discovery application built with **React**, **Tailwind CSS**, and **TheMealDB API**. It allows users to browse a wide range of recipes, view detailed cooking instructions, and share their favorite meals on social media. 
 
 ---
-
+Demo video 👉  https://lnkd.in/g3jVxK9g
+---
 ## 📸 Screenshots
 
 ![Screenshot 1](Screenshot/Homepage.png)
